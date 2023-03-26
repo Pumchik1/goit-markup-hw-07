@@ -1,4 +1,4 @@
-:root {
+/*:root {
     --main-title-color: #2E2F42; 
     --first-color:  #FFFFFF;
     --accent-color: #4D5AE5;
@@ -97,10 +97,10 @@ address{
      padding: 0;
      margin: 0;}
 .link {
-    text-decoration: none;}
+    text-decoration: none;}*/
 /* -----------------------------header------------------------------------ */
 
-.page-header{
+/*.page-header{
     padding-bottom: 24px;
     padding-top: 24px;
     border:1px solid #E7E9FC;}
@@ -201,11 +201,11 @@ address{
      bottom: 0;
      left: 0;
      background-color: #404BBF;
-     border-radius: 2px;}
+     border-radius: 2px;}*/
     
 
 /*---------------------------Effective Solutions for Your Business ----------------------------------------------------------*/ 
-.hirol-tiatl {
+/*.hirol-tiatl {
 
     font-size: 56px;
     line-height: 1.07;
@@ -262,11 +262,11 @@ address{
 .hirol-btn:hover,
 .hirol-btn:focus {
     color: var(--first-color);
-    background-color:var(--focus-color)}
+    background-color:var(--focus-color)}*/
 
 
 /* ----------------------------------principes.principes-subject ------------------------------ */
-.principes{
+/*.principes{
     padding-top: 120px;
     padding-bottom: 120px;}
 
@@ -305,9 +305,9 @@ address{
 
 .principes-subject-description{
     display: flex;
-    align-items: center;}
+    align-items: center;}*/
 /* ----------------------------What are we doing------------------------------------------- */
-img{
+/*img{
     max-width: 100%;
     height: auto;
     display: block;}
@@ -323,9 +323,9 @@ img{
 .doing-list{
     display: flex;
     gap: 24px;
-    flex-basis: calk((100%-48px)/3);}
+    flex-basis: calk((100%-48px)/3);}*/
 /* ---------------------------------Our Team -------------------------------------------------*/
-.tem {
+/*.tem {
     background-color: var(--logo-color);
     padding-top: 120px;
     padding-bottom: 120px;}
@@ -383,9 +383,9 @@ img{
 .tem-item-link:hover,
 .tem-item-link:focus{
     background-color:var(--focus-color);
-}
+}*/
 /*-------------------------------------------Customers---------------------------------------------------*/
-.costomers{
+/*.costomers{
     padding-top: 130px;}
 
 .costomers-list{
@@ -444,11 +444,11 @@ img{
     transition-duration: 250ms;}
 .costomers-icon:hover,
 .costomers-icon:focus{
-    color:#404BBF ;}
+    color:#404BBF ;}*/
    
  /*---------------------------------------------- footer.------------------------------------ */
 
-.footer-logo {
+/*.footer-logo {
     color: var(--btn-color); 
     margin-bottom: 16px; }
 
@@ -513,9 +513,9 @@ img{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color:var(--first-color);}
+        color:var(--first-color);}*/
 /*-------------------------------------footer2level---------------------------------------------------------------*/
-
+/*
 .forms-footer-title{
     font-style: normal;
     font-weight: 500;
@@ -595,12 +595,12 @@ img{
     display: flex;
     gap:24px;
     background: #4D5AE5;
-    border-radius: 4px;}
+    border-radius: 4px;}*/
 
 
 /*------------------------------------------modal windol-------------------------------------------*/
      
-.backdrop {
+/*.backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -644,11 +644,11 @@ img{
 
     animation-name: modal-scale;
     animation-duration: 3000ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}*/
 
 /*-----------------------------------------------------modal animations------------*/
 
-
+/*
 .modal-close-button {
     position: absolute;
     top: 24px;
@@ -688,10 +688,10 @@ img{
 .modal-close-button:is(:hover, :focus) .button-icon {
     fill: var(--first-color);
 }
-
+*/
 /*-----------------------------------------------------modal form stuff------------*/
 
-.modal-form {
+/*.modal-form {
     display: flex;
     flex-direction: column;
 }
@@ -866,10 +866,10 @@ policy-checkbox:checked+.custom-checkbox {
 .form-submit-button:hover,
 .form-submit-button:focus {
     background-color: var(--focus-color);
-}
+}*/
 
 /* -----------------------------------------header portfolio--------------------------------------- */
-
+/*
 .page-header{
     padding-bottom: 24px;
     padding-top: 24px;}
@@ -969,7 +969,7 @@ policy-checkbox:checked+.custom-checkbox {
     left: 0;
     background-color: #404BBF;
     border-radius: 2px;}
-   
+   */
    
    
    
@@ -977,7 +977,7 @@ policy-checkbox:checked+.custom-checkbox {
    
    
 /* -----------------------------------------------button------------------------------------------------- */
-
+/*
 .navegetion{
     padding-top: 96px;
     padding-bottom: 120px;}
@@ -1018,10 +1018,10 @@ policy-checkbox:checked+.custom-checkbox {
     display:flex;
     gap:24px;
     justify-content: center;
-    margin-bottom: 72px;} 
+    margin-bottom: 72px;} */
  
 /* ---------------------------------imagis--------------------------------------------------------- */
-img{
+/*img{
     display: block; 
     max-width: 100%; 
     height: auto}
@@ -1098,6 +1098,6 @@ img{
     padding-top: 40px;
     padding-right: 32;
     padding-bottom: 164px;
-    padding-left: 32px;}
+    padding-left: 32px;}*/
 /* ----------------------------------footer portfolio--------------------------------------------------- */
 

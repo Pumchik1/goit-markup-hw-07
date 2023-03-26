@@ -20,12 +20,16 @@
     <link href="
 https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
 " rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobail.styles.css" />
+    <link rel="stylesheet" href="./css/tab.styles.css" />
+    <link rel="stylesheet" href="./css/desctop.styles.css" />
 
 </head>
 
 <body>
-    <header class="page-header">
+    <header class="page-header cotainer ">
         <div class="cotainer page-header-coteiner">
             <nav class="page-nav">
                 <a class="header-logo logo link " href=".index.html">Web <span
@@ -36,6 +40,12 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                     <li class="menu-item"><a class="menu-link link" href="./index.html">Contacts</a></li>
                 </ul>
             </nav>
+            <batton class="mobail-menu-open" type="batton">
+                <svg class="mobail-menu-open-icon" width="32px" height="22px">
+                    <use class="mobail-menu-open-use" href="./images/symbol-defs.svg#icon-close-black-18dp-2-1">
+                    </use>
+                </svg>
+            </batton>
             <address class="adres">
 
                 <ul class="adres-list list">
@@ -48,19 +58,48 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
                 </ul>
             </address>
         </div>
+<div class="mobail-menu">
+    <div class="cotainer mobail-menu-cotainer"></div>
+    <button class="mobail-menu-close-btn " type="button">
+        <svg class="menu-close-btn-icon" width="8px" height="8px">
+            <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1">
+          </use>
+        </svg>
+    </button>
+<ul class="mobail-menu-list">
+    <li class="mobail-menu-item"><a class="mobail-menu-link" href="">Studio</a></li>
+    <li class="mobail-menu-item"><a class="mobail-menu-link" href="">Portfolio</a></li>
+    <li class="mobail-menu-item"><a class="mobail-menu-link" href="">Contacts</a></li>
+</ul>
+    <ul mobail-menu-list-adres>
+    <li class="mobail-menu-item-adres"><a mobail-menu-link-adres href="tel:+110001111111">+11(000)111-11-11"
+</a>
+</li>
+    <li class="mobail-menu-item-adres"><a mobail-menu-link-adres href="mailto:info@devstudio.com">info@devstudio.com
+</a>
+</li>
+</ul>
+    <ul class="mobail-menu-icon">
+    <li class="mobail-menu-item-icon"><a class="mobail-menu-link-icon"><svg width="24px" height="24px"><use href="./images/symbol-defs.svg#icon-instagram-2"></use></svg></a></li>
+    <li class="mobail-menu-item-icon"><a class="mobail-menu-link-icon"><svg width="24px" height="24px"><use href="./images/symbol-defs.svg#icon-Group"></use></svg></a></li>
+    <li class="mobail-menu-item-icon"><a class="mobail-menu-link-icon"><svg width="24px" height="24px"><use href="./images/symbol-defs.svg#icon-facebook-1"></use></svg></a></li>
+    <li class="mobail-menu-item-icon"><a class="mobail-menu-link-icon"><svg width="24px" height="24px"><use href="./images/symbol-defs.svg#icon-linkedin-1"></use></svg></a></li>
+</ul>
+   </div>
+
     </header>
     <main>
         <!--Effective Solutions
 for Your Business-->
-        <section class="hirol">
+        <!-- <section class="hirol">
             <div class="hirol-cotainer cotainer">
                 <h1 class="hirol-tiatl">Effective Solutions
                     for Your Business</h1>
                 <button class="hirol-btn btn" type="button" data-modal-open>Order Service</button>
             </div>
-        </section>
+        </section>-->
         <!--principes-->
-        <section class="principes ">
+        <!--<section class="principes ">
             <div class="cotainer">
                 <h2 class="visually-hidden">Principes</h2>
                 <ul class="principes-list list">
@@ -105,9 +144,9 @@ for Your Business-->
                     </li>
                 </ul>
             </div>
-        </section>
+        </section>-->
         <!--What are we doing-->
-        <section class="doing ">
+        <!--<section class="doing ">
             <div class="cotainer">
                 <h2 class="doing-title title">What are we doing</h2>
                 <ul class="doing-list list">
@@ -120,9 +159,9 @@ for Your Business-->
                             alt="monitor laptop and phoone" width="360" height="300" /></li>
                 </ul>
             </div>
-        </section>
+        </section>-->
         <!--Our Team-->
-        <section class="tem">
+        <!-- <section class="tem">
             <div class="cotainer">
                 <h2 class="tem-titel title">Our Team</h2>
                 <ul class="tem-list list">
@@ -268,10 +307,10 @@ for Your Business-->
                     </li>
                 </ul>
             </div>
-        </section>
+        </section>-->
 
         <!--Customers-->
-        <section class="costomers">
+        <!--<section class="costomers">
             <div class="cotainer">
                 <h2 class="costomers-title">Customers</h2>
                 <ul class="costomers-list list">
@@ -310,9 +349,9 @@ for Your Business-->
                 </ul>
             </div>
         </section>
-    </main>
-    <!--futer-->
-    <footer class="footer ">
+    </main>-->
+        <!--futer-->
+        <!--<footer class="footer ">
         <div class="cotainer-footer cotainer">
             <div class="footer-logo-descriptioni">
                 <a class="footer-logo logo link" href=".index.html">Web
@@ -360,9 +399,9 @@ for Your Business-->
                 </form>
             </div>
         </div>
-    </footer>
-
-    <div class="backdrop is-hidden" data-modal>
+    </footer>-->
+        <!-- Modal windol-->
+        <!--<div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-button" data-modal-close>
                 <svg class="button-icon">
@@ -446,8 +485,9 @@ for Your Business-->
             </form>
 
         </div>
-    </div>
-    <script src="./js/modal.js"></script>
+    </div>-->
+<script defer src="js/mobile-menu.js"></script>
+        <script src="./js/modal.js"></script>
 </body>
 
 </html>
