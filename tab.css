@@ -234,15 +234,37 @@
     .team {
         padding: 96px 123px;}
 
+ @media screen and (min-width: 768px),
+         
+ (max-width: 1199px){ 
+    .container-sm {
+             width: 552px;
+             row-gap: 72px;}}
+
+ @media screen and (min-width: 768px){
+    .container {
+             max-width: 768px;
+             padding-right: 15px;
+             padding-left: 15px;
+             margin: 0 auto;}
     .team-container {
         display: flex;
-        flex-direction: row;
+        
         flex-wrap: wrap;
         column-gap: 24px;
        row-gap: 72px;}
 
     .team-list {
-        width: calc((100% - 24px) / 2);}
+        width: calc((100% - 24px) / 2);}}
+
+        
+        
+        
+        
+        
+   
+   
+
 
     /* CUSTOMERS */
 
