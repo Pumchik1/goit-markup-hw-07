@@ -67,11 +67,16 @@ p {
     border-radius: 100%;
     background-color: var(--white-color);
     color: #fff;
-    cursor: pointer;}
+    cursor: pointer;
+    fill: black;
+        stroke: black;}
 
 .button-burger-icon {
-    background-color: #fff;}
-
+    background-color: #fff;
+    fill: black;
+    stroke: black;}
+.zxc{fill: black;
+    stroke: black;}
 .header-nav-wrap {
     background-color: var(--white-color);
     width: 100%;
@@ -251,7 +256,7 @@ p {
     text-align: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-    url(./images/qurteam/peopel.jpg);
+    url(./images/doing/pepol-dec.jpg);
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;}
@@ -284,7 +289,28 @@ p {
     margin-bottom: 72px;
     text-align: center;}
 
-
+.button-primary{
+    font-family: inherit;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        color: var(--first-color);
+        background-color: var(--btn-color);
+        border: transparent;
+        transition-property: background-color, color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+.button-primary:hover,
+.button-primary:focus {
+    color: varvar(--accent-bg-color);
+    background-color: var(--button-bg-color);}
 
 /* Features */
 .features {
@@ -638,7 +664,8 @@ h2 {
 
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms var(--timing-function), opacity 250ms var(--timing-function);}
-
+@media screen and(max-width: 480px){
+.modal {width:95%}}
 .button-close {
     display: block;
     width: 24px;

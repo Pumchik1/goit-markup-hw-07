@@ -9,13 +9,15 @@
         justify-content: end;
         align-items: center;
         gap: 12px;}
+    .header-nav-wrap{
+        display: none;}}
 
 
     .hero {
         padding: 188px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(./images/qurteam/pepol-dec.jpg);
+            url(./images/qurteam/people-office.jpg);
         background-repeat: no-repeat;
             background-position: center;
             margin: 0 auto;}
@@ -27,11 +29,12 @@
             padding: 188px 0;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(./images/qurteam/peopel-desc.jpg);
+                url(./images/qurteam/people-office.jpg);
             background-repeat: no-repeat;
+            background-size: cover;
                 background-position: center;
                 margin: 0 auto;}}
-
+@media screen and (min-width: 1200px) {
     .hero-container {
         max-width: 100%;}
 
@@ -140,7 +143,7 @@
         width: 45%;}
 
     .subscribe-submit {
-        margin-right: 24px;}
+        margin-right: 24px;}}
 
     /* Portfolio */
         @media screen and (min-width: 1200px) {
@@ -308,3 +311,37 @@
                 flex-basis: calc((100% - 48px) / 3);
             }
         }
+
+          /* Background image */
+    
+          @media (min-device-pixel-ratio: 1),
+          (-webkit-min-device-pixel-ratio: 1),
+          (-o-min-device-pixel-ratio: 1/1),
+          (min-resolution: 96dpi),
+          (min-resolution: 1dppx) {
+              .section.hero {
+                  background-image: linear-gradient(to right,
+                          rgba(46, 47, 66, 0.7),
+                          rgba(46, 47, 66, 0.7)),
+                      url(../images/hero-desktop-1x.jpg);
+                  background-color: var(--secondary-background-color);
+              }
+          }
+    
+          @media (min-device-pixel-ratio: 2),
+          (-webkit-min-device-pixel-ratio: 2),
+          (-o-min-device-pixel-ratio: 2/1),
+          (min-resolution: 192dpi),
+          (min-resolution: 2dppx) {
+              .section.hero {
+                  background-image: linear-gradient(to right,
+                          rgba(46, 47, 66, 0.7),
+                          rgba(46, 47, 66, 0.7)),
+                      url(../images/hero-desktop-2x.jpg);
+                  background-color: var(--secondary-background-color);
+              }
+          }
+          }
+    
+         
+         
