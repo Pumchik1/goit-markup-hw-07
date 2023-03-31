@@ -19,7 +19,7 @@
         display: none;}
 
     .header {
-        padding-bottom: 0;
+        padding-bottom:28px;
         border-bottom: 1px solid #E7E9FC;
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);}
 
@@ -96,8 +96,6 @@
         flex-direction: column;
         justify-content: end;
         align-items: center;
-        margin-left: 121px;
-        margin-right: 332px;
         gap: 40px;}
 
     .contacts a {
@@ -118,7 +116,7 @@
     .contact-tel {}
 
 
-    /* .site-nav {
+     .site-nav {
         display: flex;
         gap: 40px;
         margin-left: 76px;
@@ -167,9 +165,9 @@
         text-decoration: none;
         margin-left: auto;
         transition: color 250ms var(--timing-function);
-    } */
+    } 
 
-    .header-social-list {
+    /*.header-social-list {
         display: none;}
 
     /* HERO section */
@@ -178,7 +176,10 @@
         padding: 112px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/people-office-tb.jpg);}
+            url(./images/qurteam/people-office.jpg);
+        background-repeat: no-repeat;
+            background-position: center;
+            margin: 0 auto;}
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -187,7 +188,10 @@
             padding: 188px 0;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/people-office-tb-2x.jpg);
+                url(./images/qurteam/peopel.jpg);
+                background-repeat: no-repeat;
+                    background-position: center;
+                    margin: 0 auto;
         }}
 
     .link.current::after {
@@ -216,8 +220,8 @@
     .item {
         width: calc((100% - 24px) / 2);
         /* width: 264px;
-        margin-right: 24px; */
-        padding: 0;}
+        margin-right: 24px; 
+        padding: 0;}*/}
 
     .features-item,
     .features-text {
@@ -228,11 +232,12 @@
 
     .features-logo-icon {
         display: none;}
-
-
-    /* TEAM */
-    .team {
-        padding: 96px 123px;}
+/* TEAM */
+.team {
+        padding: 96px 123px;}}
+@media screen and (max-width: 1199px) {
+    .about {
+        display: none;}}
 
  @media screen and (min-width: 768px),
          
@@ -249,13 +254,13 @@
              margin: 0 auto;}
     .team-container {
         display: flex;
-        
+        flex-direction: wrap;
         flex-wrap: wrap;
         column-gap: 24px;
        row-gap: 72px;}
 
     .team-list {
-        width: calc((100% - 24px) / 2);}}
+        width: calc((100% - 24px) / 2);}
 
         
         
@@ -283,14 +288,14 @@
 
     .footer-logo {
 
-        /* display: flex;
+         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center; 
         gap: 18px;
         margin-bottom: 72px;
-          */}
+          }
 
     .footer-logo {
         display: block;
@@ -358,3 +363,5 @@
 
     .footer-container {
         width: 565px;}}
+
+        

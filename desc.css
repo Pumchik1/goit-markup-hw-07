@@ -8,8 +8,6 @@
         flex-direction: row;
         justify-content: end;
         align-items: center;
-        margin-left: 121px;
-        margin-right: 120px;
         gap: 12px;}
 
 
@@ -17,7 +15,10 @@
         padding: 188px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/people-office.jpg);}
+            url(./images/qurteam/pepol-dec.jpg);
+        background-repeat: no-repeat;
+            background-position: center;
+            margin: 0 auto;}
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -26,7 +27,10 @@
             padding: 188px 0;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/people-office-desktop-2x.jpg);}}
+                url(./images/qurteam/peopel-desc.jpg);
+            background-repeat: no-repeat;
+                background-position: center;
+                margin: 0 auto;}}
 
     .hero-container {
         max-width: 100%;}
@@ -91,8 +95,7 @@
     .team-container {
         display: flex;
         flex-wrap: nowrap;
-        flex-direction: row;
-    }
+        flex-direction: row;}
 
     .team-list {
         width: calc((100% - 72px) / 4);}
@@ -140,3 +143,168 @@
         margin-right: 24px;}
 
     /* Portfolio */
+        @media screen and (min-width: 1200px) {
+            .container {
+                max-width: 1158px;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin: 0 auto;}
+    
+            .adresses {
+                margin-left: auto;}
+    
+            .contacts {
+                flex-wrap: nowrap;
+                flex-direction: unset;
+                margin-left: 332px;
+                gap: 40px;}
+    
+            .contacts a {
+                font-size: 16px;
+                line-height: 1.5;}
+    
+    
+    
+    
+            .hero {
+                padding: 188px 0;
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)),
+                    url(../images/people-office.jpg);}
+    
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                .hero {
+                    padding: 188px 0;
+                    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                            rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-desktop-2x.jpg);}}
+    
+            /* FEATURES */
+            .features {
+                padding-top: 120px;
+                padding-bottom: 120px;}
+    
+            .features-container {
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;}
+    
+            .item:not(:last-child) {
+                margin-right: 24px;}
+    
+            .features-logo-icon {
+                display: flex;
+                background-color: var(--bg-light-color);
+                width: 264px;
+                height: 112px;
+                border-radius: 4px;
+                padding: 24px 102px;
+                margin-bottom: 8px;}
+    
+            .features-item {
+                color: var(--secondary-text-color);
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 1.2;}
+    
+            .features-text {
+                font-weight: 400;
+            }
+    
+            /* About */
+            .about {
+                padding-bottom: 120px;
+            }
+    
+            .about-title {
+                color: var(--primary-text-color);
+                text-align: center;
+                margin-bottom: 72px;
+            }
+    
+            .about-container {
+                display: flex;
+                padding: 0;
+            }
+    
+    
+            .about-photo:not(:last-child) {
+                margin-right: 24px;
+            }
+    
+    
+            /* TEAM */
+    
+            .team {
+                padding: 120px 0;
+            }
+    
+            .team-container {
+                display: flex;
+                flex-wrap: nowrap;
+            }
+    
+            .team-list {
+                width: calc((100% - 72px) / 4);
+            }
+    
+            .container-sm {
+                width: 1158px;
+                row-gap: 72px;
+            }
+    
+            /* CUSTOMERS */
+            .customers {
+                padding-top: 130px;
+                padding-bottom: 120px;
+            }
+    
+            .customers-list {
+                flex-wrap: nowrap;
+            }
+    
+            .customer-item {
+                width: 168px;
+            }
+    
+            /* FOOTER */
+            .footer-container {
+                flex-wrap: nowrap;
+                width: 1158px;
+                padding: 0;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+    
+            .footer-logo {
+                width: 30%;
+            }
+    
+            .footer-content {
+                width: 25%;
+            }
+    
+            .footer-subscribe {
+                width: 45%;
+            }
+    
+            .subscribe-submit {
+                margin-right: 24px;
+            }
+    
+            /* Portfolio */
+    
+            .list-portfolio {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                column-gap: 24px;
+                row-gap: 48px;
+            }
+    
+            .list-box {
+                flex-basis: calc((100% - 48px) / 3);
+            }
+        }
