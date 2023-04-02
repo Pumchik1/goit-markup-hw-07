@@ -43,8 +43,8 @@
         display: none;}
     .contacts{
         display: none;}
-    .item {
-        padding-bottom: 72px;}}
+    .item:not(:last-child) {
+        margin-bottom: 72px;}}
 
 
 
