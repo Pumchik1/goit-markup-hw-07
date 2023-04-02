@@ -23,7 +23,8 @@
         gap: 56px;
         margin-top: 48px;}
 
-
+    
+    
     /* FEATURES */
 
     /* TEAM */
@@ -45,10 +46,13 @@
 @media screen and (min-width: 480px), (max-width: 767px) {
     .container-sm {
         max-width: 264px;}}
-
+.features-logo {
+    display: none;}
 @media screen and (max-width: 479px) {
     .container {
         max-width: 320px;}
+
+
 
     .hero-container {
         width: 100%;}

@@ -219,6 +219,7 @@
 
     .item {
         width: calc((100% - 24px) / 2);
+        margin-bottom: 72px;
         /* width: 264px;
         margin-right: 24px; 
         padding: 0;}*/}
@@ -244,7 +245,9 @@
  (max-width: 1199px){ 
     .container-sm {
              width: 552px;}}
-
+@media screen and (min-width: 768px) { 
+    .item {
+    width: calc((100% - 24px) / 2);}}
  @media screen and (min-width: 768px){
     .container {
              max-width: 768px;
@@ -264,15 +267,7 @@
         width: calc((100% - 24px) / 2);}
 
         
-        
-        
-        
-        
-   
-   
-
-
-    /* CUSTOMERS */
+        /* CUSTOMERS */
 
     .customer-item {
         width: calc((100% - 48px) / 3);
