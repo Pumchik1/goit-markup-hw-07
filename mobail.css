@@ -30,7 +30,8 @@
     /* TEAM */
     .team {
         padding: 96px  97px;}
-    
+   
+   
     .team-container {
         display: flex;
         flex-direction: column;
@@ -45,7 +46,9 @@
 
 @media screen and (min-width: 480px), (max-width: 767px) {
     .container-sm {
-        max-width: 264px;}}
+        max-width: 264px;}
+        .team-list:not(:last-child) {
+            margin-bottom: 72px;}}
 .features-logo {
     display: none;}
 @media screen and (max-width: 479px) {
