@@ -104,8 +104,7 @@
         width: calc((100% - 72px) / 4);}
 
     .container-sm {
-        width: 1158px;
-        row-gap: 72px;}
+        width: 1158px;}
 
     /* CUSTOMERS */
     .customers {
@@ -254,9 +253,7 @@
             }
     
             .container-sm {
-                width: 1158px;
-                row-gap: 72px;
-            }
+                width: 1158px;}
     
             /* CUSTOMERS */
             .customers {

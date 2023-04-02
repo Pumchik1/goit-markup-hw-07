@@ -59,7 +59,6 @@
         font-size: 16px;
         line-height: 1.5;
         text-decoration: none;
-        padding: 24px 0;
         display: inline-block;
         transition: color 250ms var(--timing-function);}
 
@@ -129,7 +128,7 @@
         font-size: 16px;
         line-height: 1.5;
         text-decoration: none;
-        padding: 24px 0;
+       
         display: inline-block;
         transition: color 250ms var(--timing-function);
     }
@@ -173,7 +172,8 @@
     /* HERO section */
 
     .hero {
-        padding: 112px 0;
+        padding-top: 112px;
+        padding-bottom: 112px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(./images/qurteam/people-office.jpg);
@@ -243,8 +243,7 @@
          
  (max-width: 1199px){ 
     .container-sm {
-             width: 552px;
-             row-gap: 72px;}}
+             width: 552px;}}
 
  @media screen and (min-width: 768px){
     .container {
@@ -390,8 +389,7 @@
 @media screen and (min-width: 768px),
 (max-width: 1199px) {
     .container-sm {
-        width: 552px;
-        row-gap: 72px;}
+        width: 552px;}
 
     .footer-container {
         width: 565px;}}

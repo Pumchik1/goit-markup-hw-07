@@ -14,7 +14,7 @@
         font-size: 20px;}
 
     .hero-title {
-        font-size: 30px;
+        font-size: 36px;
         width: 320px;}
 
     .header-social-list {
@@ -44,8 +44,7 @@
 
 @media screen and (min-width: 480px), (max-width: 767px) {
     .container-sm {
-        max-width: 264px;
-        row-gap: 72px;}}
+        max-width: 264px;}}
 
 @media screen and (max-width: 479px) {
     .container {
@@ -56,8 +55,8 @@
 
     .team-container {
         display: flex;
-        flex-direction: column;
-        row-gap: 72px;}
+        flex-direction: column;}
+
     .container-sm {
         max-width: 264px;
         row-gap: 72px;}
