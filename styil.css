@@ -59,6 +59,9 @@ p {
     display: flex;}
 .header-btn-mob {
     display: flex;
+    position: absolute;
+    top: 24px;
+    right: 24px;
     justify-content: center;
     align-items: center;
     margin-left: auto;
@@ -69,7 +72,7 @@ p {
     color: #fff;
     cursor: pointer;
     fill: black;
-        stroke: black;}
+    stroke: black;}
 
 .button-burger-icon {
     background-color: #fff;

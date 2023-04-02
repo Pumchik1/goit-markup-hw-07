@@ -263,8 +263,7 @@
         row-gap: 72px;}
 
     .team-list {
-        
-        width: calc((100% - 24px) / 2);}
+         width: calc((100% - 24px) / 2);}
 
         
         /* CUSTOMERS */

@@ -27,6 +27,8 @@
     
     /* FEATURES */
 
+
+
     /* TEAM */
     .team {
         padding: 96px  97px;}
@@ -40,7 +42,9 @@
      .site-nav {
         display: none;}
     .contacts{
-        display: none;}}
+        display: none;}
+    .item {
+        padding-bottom: 72px;}}
 
 
 
