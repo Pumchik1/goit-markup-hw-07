@@ -20,6 +20,8 @@
         display: none;}
 
     .header {
+        padding-top: 16px;
+        padding-bottom: 16px;
        border-bottom: 1px solid #E7E9FC;
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);}
 
@@ -147,11 +149,11 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-end;
-        flex-direction: unset;
+        flex-direction: column;
         margin: 0;
         padding: 0;
         margin-left: auto;
-        gap: 40px;
+        gap: 5px;
     }
 
     .contacts a {
@@ -159,7 +161,7 @@
         font-family: Roboto, sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 1.5;
         text-decoration: none;
         margin-left: auto;
@@ -244,7 +246,9 @@
          
  (max-width: 1199px){ 
     .container-sm {
-             width: 552px;}}
+            width: 552px;
+            max-width: 582px;
+            padding: 0px 15px;}}
 @media screen and (min-width: 768px) { 
     .item {
     width: calc((100% - 24px) / 2);}}
@@ -257,15 +261,19 @@
              
     .team-container {
         display: flex;
-        flex-direction: wrap;
+        flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
-        row-gap: 72px;
-        }
+        row-gap: 64px;}
 
     .team-list {
-         width: calc((100% - 24px) / 2);}
+    width: calc((100% - 24px) / 2);
+     row-gap: 64px;
+    column-gap: 24px}
 
+   .team-list:not(:last-child){
+   margin-bottom:0;
+   }
         
         /* CUSTOMERS */
 
@@ -284,7 +292,7 @@
 
     .footer-logo {
 
-         display: flex;
+        display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
@@ -346,7 +354,7 @@
         color: var(--white-color);
         background-color: var(--accent-bg-color);
         transition: background-color 250ms var(--timing-function);
-    }
+    }}
 
  /* Background image */
 

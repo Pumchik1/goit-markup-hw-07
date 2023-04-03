@@ -4,7 +4,9 @@
         padding-right: 15px;
         padding-left: 15px;}
 
-    
+    .team-img{
+        width: 100%;
+       height: auto;}
     
 
     .contact-tel {
@@ -23,7 +25,9 @@
         gap: 56px;
         margin-top: 48px;}
 
-    
+    .hero {
+            padding-top: 112px;
+            padding-bottom: 112px;}
     
     /* FEATURES */
 
@@ -44,7 +48,9 @@
     .contacts{
         display: none;}
     .item:not(:last-child) {
-        margin-bottom: 72px;}}
+        margin-bottom: 72px;}
+    .container-sm{
+        max-width: 294px;}}
 
 
 
