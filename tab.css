@@ -260,7 +260,8 @@
         flex-direction: wrap;
         flex-wrap: wrap;
         column-gap: 24px;
-        row-gap: 72px;}
+        row-gap: 72px;
+        }
 
     .team-list {
          width: calc((100% - 24px) / 2);}
