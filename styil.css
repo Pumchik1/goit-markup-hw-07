@@ -60,7 +60,7 @@ p {
 .header-btn-mob {
     display: flex;
     position: absolute;
-    top: 24px;
+    top: 40px;
     right: 24px;
     justify-content: center;
     align-items: center;
