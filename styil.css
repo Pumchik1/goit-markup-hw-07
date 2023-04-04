@@ -594,7 +594,8 @@ h2 {
 .footer-form-wrapper {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;}
+    align-items: center;
+    gap: 16px;}
 
 .footer-form-input {
     color: var(--white-color);
