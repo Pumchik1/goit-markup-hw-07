@@ -595,7 +595,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 16px;}
+    gap: 24px;}
 
 .footer-form-input {
     color: var(--white-color);
